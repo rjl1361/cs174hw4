@@ -1,0 +1,6 @@
+{
+  "name": "homework4",
+  "description": "composer file",
+  "minimum-stability": "dev",
+  "license": "Apache-2.0"
+}
