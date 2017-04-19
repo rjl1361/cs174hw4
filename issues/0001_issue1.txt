@@ -1,0 +1,14 @@
+# how to setup the directory properly? 
+
+
+
+
+# for this project we will need the following directories (based on the project requirements):
+# app_data that will consist of the log file
+# issues directory that holds all the issues we get stuck upon during development
+# src should consist of the following sub-directories:
+## configs that holds Config.php on how to run the program and CreateDB.php file to set up the database
+## controllers that will hold all the controllers (probably, going to be just one)
+## js that contains given spreadsheet.js file
+## models - probably, will consist of two models since our MySQL consists of two tables: sheet and sheet_code
+## views - should be three of them: landing page, edit spreadsheet, view spreadsheet
