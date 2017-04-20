@@ -1,0 +1,2 @@
+# the next issue is probably to set up MySQL database to correctly
+# store JSON 
