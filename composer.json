@@ -11,6 +11,7 @@
     }
 
   ],
+  "name": "acme/blog",
   "description": "composer file",
   "minimum-stability": "dev",
   "license": "Apache-2.0",
@@ -21,10 +22,10 @@
   },
   "autoload": {
     "psr-4": {
-      "HMRTeam\\hw4\\models": "src/models",
-      "HMRTeam\\hw4\\controllers": "src/controllers",
-      "HMRTeam\\hw4\\configs": "src/configs",
-      "HMRTeam\\hw4\\views": "src/views"
+      "HMRTeam\\hw4\\models\\": "src/models",
+      "HMRTeam\\hw4\\controllers\\": "src/controllers",
+      "HMRTeam\\hw4\\configs\\": "src/configs",
+      "HMRTeam\\hw4\\views\\": "src/views"
     }
   }
 
