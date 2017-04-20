@@ -309,6 +309,16 @@ function Spreadsheet(spreadsheet_id, supplied_data)
         event.stopPropagation();
         event.preventDefault();
     }
+
+    /**
+     * method to calculate the average of cells as described in (s)
+     * spreadsheet.js should be extended to accept expressions like =avg(A1:A10)
+     * which would compute the average value of A1, A2, ...., A10.
+     */
+    p.calculateCellAve = function (cell_expression, location) {
+
+
+    }
     if (this.mode == 'write') {
         container.addEventListener("click", self.updateCell, true);
     }
