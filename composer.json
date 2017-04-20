@@ -9,7 +9,12 @@
     "monolog/monolog": "1.0.*"
   },
   "autoload": {
-    "psr-4": {"HMRTeam\\": "src/"}
+    "psr-4": {
+      "hw4\\models": "src/models",
+      "hw4\\controllers": "src/controllers",
+      "hw4\\configs": "src/configs",
+      "hw4\\views": "src/views",
+    }
   }
 
 }
