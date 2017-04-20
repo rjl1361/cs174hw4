@@ -21,10 +21,10 @@
   },
   "autoload": {
     "psr-4": {
-      "HMR\\hw4\\models": "src/models",
-      "HMR\\hw4\\controllers": "src/controllers",
-      "HMR\\hw4\\configs": "src/configs",
-      "HMR\\hw4\\views": "src/views"
+      "HMRTeam\\hw4\\models": "src/models",
+      "HMRTeam\\hw4\\controllers": "src/controllers",
+      "HMRTeam\\hw4\\configs": "src/configs",
+      "HMRTeam\\hw4\\views": "src/views"
     }
   }
 
