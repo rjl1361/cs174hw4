@@ -12,6 +12,14 @@ class Header implements Layout {
 
     function render($data)
     {
-        // TODO: Implement render() method.
+        ?>
+        <!doctype html>
+        <html>
+            <head>
+                <title>Spreadsheet App <?=$data?></title>
+            </head>
+
+        <body>
+        <?php
     }
 }
