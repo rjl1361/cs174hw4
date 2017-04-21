@@ -1,16 +1,20 @@
 <?php
 /**
- * Created by PhpStorm.
- * User: mishabehey
- * Date: 4/20/17
- * Time: 11:30 AM
+ * @author Mykhailo Behei
+ * @author Hien Nguyen
+ * @author Richard Lack
  */
 
 
 namespace HMRTeam\hw4\controllers;
 
 
-
+/**
+ * Class Controller
+ * @package HMRTeam\hw4\controllers
+ *
+ * 
+ */
 
 class Controller {
     //handle views in here
