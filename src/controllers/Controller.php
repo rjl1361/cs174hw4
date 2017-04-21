@@ -13,7 +13,7 @@ namespace HMRTeam\hw4\controllers;
  * Class Controller
  * @package HMRTeam\hw4\controllers
  *
- * 
+ *
  */
 
 class Controller {
