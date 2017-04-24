@@ -6,11 +6,11 @@
  * @author Mykhailo Behei
  */
 
-namespace HMRTeam\hw4;
+namespace HMRTeam\hw4\configs;
 class Config {
-    const user ='root';
-    const password = 'root';
-    const host = '127.0.0.1';
-    const port = 3306;
-    const db = 'spreadsheet';
+    public $user ='root';
+    public $password = 'root';
+    public $host = '127.0.0.1';
+    public $port = 3306;
+    public $db = 'spreadsheet';
 }
