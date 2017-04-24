@@ -11,6 +11,6 @@ class Config {
     const user ='root';
     const password = 'root';
     const host = '127.0.0.1';
-    const port = 8080;
+    const port = 3306;
     const db = 'spreadsheet';
 }
