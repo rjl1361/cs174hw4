@@ -255,6 +255,8 @@ function Spreadsheet(spreadsheet_id, supplied_data)
         var column = target.cellIndex - 1;
         var length = data.length;
         var width = data[0].length;
+        var xhttp = new XMLHttpRequest(); //that was easy
+        
         if (row >= 0 && column >= 0) {
             var new_value = prompt(self.letterRepresentation(column) +
                 (row + 1), data[row][column]);
