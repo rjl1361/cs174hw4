@@ -19,7 +19,7 @@ if ($db->connect_error) {
 
 echo "successfully connection\n";
 
-//$dbCreate = 'CREATE DATABASE IF NOT EXISTS' .Config::db;
+$dbCreate = 'CREATE DATABASE IF NOT EXISTS' .Config::db;
 
 if ($db->query($dbCreate) == true) {
     echo Config::db . " created \n";
