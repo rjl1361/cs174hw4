@@ -323,3 +323,9 @@ function Spreadsheet(spreadsheet_id, supplied_data)
         container.addEventListener("click", self.updateCell, true);
     }
 }
+
+function editSheet(data) {
+    var editSheet = new Spreadsheet('sheet_data', data);
+    editSheet.mode = 'write';
+    editSheet.draw();
+}
