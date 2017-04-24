@@ -329,3 +329,10 @@ function editSheet(data) {
     editSheet.mode = 'write';
     editSheet.draw();
 }
+
+function readSheet() {
+    var readSheet = new Spreadsheet('sheet_data',
+    [["Tom",5], ["Sally"], 6]); //testing purposes
+    readSheet.mode = 'read';
+    readSheet.draw();
+}
